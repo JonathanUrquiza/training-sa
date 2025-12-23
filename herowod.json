@@ -1,0 +1,979 @@
+{
+  "crossfit_wods_completos_con_ejercicios": {
+    "nasty_girls": {
+      "nombre": "Nasty Girls",
+      "tipo": "For Time",
+      "descripcion": "3 rondas completas de:",
+      "ejercicios": [
+        {
+          "orden": 1,
+          "ejercicio": "Air Squats",
+          "repeticiones": 50,
+          "peso": "Bodyweight"
+        },
+        {
+          "orden": 2,
+          "ejercicio": "Muscle-ups",
+          "repeticiones": 7,
+          "peso": "Bodyweight"
+        },
+        {
+          "orden": 3,
+          "ejercicio": "Hang Power Cleans",
+          "repeticiones": 10,
+          "peso_rx_hombres": "135 lb (61 kg)",
+          "peso_rx_mujeres": "95 lb (43 kg)"
+        }
+      ],
+      "total_rondas": 3,
+      "nivel": "Avanzado"
+    },
+    "the_girls_benchmark_wods": [
+      {
+        "nombre": "Fran",
+        "tipo": "For Time",
+        "descripcion": "21-15-9 repeticiones de cada ejercicio",
+        "ejercicios": [
+          {
+            "ejercicio": "Thrusters",
+            "repeticiones_por_ronda": "21-15-9",
+            "peso_rx_hombres": "95 lb (43 kg)",
+            "peso_rx_mujeres": "65 lb (29 kg)"
+          },
+          {
+            "ejercicio": "Pull-ups",
+            "repeticiones_por_ronda": "21-15-9",
+            "peso": "Bodyweight"
+          }
+        ],
+        "total_repeticiones": {
+          "thrusters": 45,
+          "pull_ups": 45
+        }
+      },
+      {
+        "nombre": "Grace",
+        "tipo": "For Time",
+        "descripcion": "Completar lo más rápido posible",
+        "ejercicios": [
+          {
+            "ejercicio": "Clean & Jerks",
+            "repeticiones": 30,
+            "peso_rx_hombres": "135 lb (61 kg)",
+            "peso_rx_mujeres": "95 lb (43 kg)"
+          }
+        ]
+      },
+      {
+        "nombre": "Isabel",
+        "tipo": "For Time",
+        "descripcion": "Completar lo más rápido posible",
+        "ejercicios": [
+          {
+            "ejercicio": "Snatches",
+            "repeticiones": 30,
+            "peso_rx_hombres": "135 lb (61 kg)",
+            "peso_rx_mujeres": "95 lb (43 kg)"
+          }
+        ]
+      },
+      {
+        "nombre": "Diane",
+        "tipo": "For Time",
+        "descripcion": "21-15-9 repeticiones de cada ejercicio",
+        "ejercicios": [
+          {
+            "ejercicio": "Deadlifts",
+            "repeticiones_por_ronda": "21-15-9",
+            "peso_rx_hombres": "225 lb (102 kg)",
+            "peso_rx_mujeres": "155 lb (70 kg)"
+          },
+          {
+            "ejercicio": "Handstand Push-ups",
+            "repeticiones_por_ronda": "21-15-9",
+            "peso": "Bodyweight"
+          }
+        ]
+      },
+      {
+        "nombre": "Elizabeth",
+        "tipo": "For Time",
+        "descripcion": "21-15-9 repeticiones de cada ejercicio",
+        "ejercicios": [
+          {
+            "ejercicio": "Squat Cleans",
+            "repeticiones_por_ronda": "21-15-9",
+            "peso_rx_hombres": "135 lb (61 kg)",
+            "peso_rx_mujeres": "95 lb (43 kg)"
+          },
+          {
+            "ejercicio": "Ring Dips",
+            "repeticiones_por_ronda": "21-15-9",
+            "peso": "Bodyweight"
+          }
+        ]
+      },
+      {
+        "nombre": "Helen",
+        "tipo": "For Time",
+        "descripcion": "3 rondas completas de:",
+        "ejercicios": [
+          {
+            "orden": 1,
+            "ejercicio": "Run",
+            "distancia": "400 metros"
+          },
+          {
+            "orden": 2,
+            "ejercicio": "Kettlebell Swings",
+            "repeticiones": 21,
+            "peso_rx_hombres": "53 lb (1.5 pood)",
+            "peso_rx_mujeres": "35 lb (1 pood)"
+          },
+          {
+            "orden": 3,
+            "ejercicio": "Pull-ups",
+            "repeticiones": 12,
+            "peso": "Bodyweight"
+          }
+        ],
+        "total_rondas": 3
+      },
+      {
+        "nombre": "Cindy",
+        "tipo": "AMRAP 20 minutos",
+        "descripcion": "Tantas rondas como sea posible en 20 minutos",
+        "ejercicios": [
+          {
+            "ejercicio": "Pull-ups",
+            "repeticiones_por_ronda": 5,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Push-ups",
+            "repeticiones_por_ronda": 10,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Air Squats",
+            "repeticiones_por_ronda": 15,
+            "peso": "Bodyweight"
+          }
+        ]
+      },
+      {
+        "nombre": "Karen",
+        "tipo": "For Time",
+        "descripcion": "Completar lo más rápido posible",
+        "ejercicios": [
+          {
+            "ejercicio": "Wall Balls",
+            "repeticiones": 150,
+            "peso_rx_hombres": "20 lb",
+            "peso_rx_mujeres": "14 lb",
+            "altura_objetivo": "10 ft hombres / 9 ft mujeres"
+          }
+        ]
+      },
+      {
+        "nombre": "Annie",
+        "tipo": "For Time",
+        "descripcion": "50-40-30-20-10 repeticiones de cada ejercicio",
+        "ejercicios": [
+          {
+            "ejercicio": "Double-Unders",
+            "repeticiones_por_ronda": "50-40-30-20-10",
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Sit-ups",
+            "repeticiones_por_ronda": "50-40-30-20-10",
+            "peso": "Bodyweight"
+          }
+        ],
+        "total_repeticiones": {
+          "double_unders": 150,
+          "sit_ups": 150
+        }
+      },
+      {
+        "nombre": "Jackie",
+        "tipo": "For Time",
+        "descripcion": "Completar en orden lo más rápido posible",
+        "ejercicios": [
+          {
+            "orden": 1,
+            "ejercicio": "Row",
+            "distancia": "1000 metros"
+          },
+          {
+            "orden": 2,
+            "ejercicio": "Thrusters",
+            "repeticiones": 50,
+            "peso_rx_hombres": "45 lb",
+            "peso_rx_mujeres": "35 lb"
+          },
+          {
+            "orden": 3,
+            "ejercicio": "Pull-ups",
+            "repeticiones": 30,
+            "peso": "Bodyweight"
+          }
+        ]
+      },
+      {
+        "nombre": "Angie",
+        "tipo": "For Time",
+        "descripcion": "Completar en orden, dividir como sea necesario",
+        "ejercicios": [
+          {
+            "orden": 1,
+            "ejercicio": "Pull-ups",
+            "repeticiones": 100,
+            "peso": "Bodyweight"
+          },
+          {
+            "orden": 2,
+            "ejercicio": "Push-ups",
+            "repeticiones": 100,
+            "peso": "Bodyweight"
+          },
+          {
+            "orden": 3,
+            "ejercicio": "Sit-ups",
+            "repeticiones": 100,
+            "peso": "Bodyweight"
+          },
+          {
+            "orden": 4,
+            "ejercicio": "Air Squats",
+            "repeticiones": 100,
+            "peso": "Bodyweight"
+          }
+        ]
+      },
+      {
+        "nombre": "Barbara",
+        "tipo": "For Time",
+        "descripcion": "5 rondas, descansar 3 minutos entre rondas",
+        "ejercicios": [
+          {
+            "ejercicio": "Pull-ups",
+            "repeticiones": 20,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Push-ups",
+            "repeticiones": 30,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Sit-ups",
+            "repeticiones": 40,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Air Squats",
+            "repeticiones": 50,
+            "peso": "Bodyweight"
+          }
+        ],
+        "total_rondas": 5,
+        "descanso_entre_rondas": "3 minutos"
+      },
+      {
+        "nombre": "Chelsea",
+        "tipo": "EMOM 30 minutos",
+        "descripcion": "Cada minuto en el minuto durante 30 minutos",
+        "ejercicios": [
+          {
+            "ejercicio": "Pull-ups",
+            "repeticiones": 5,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Push-ups",
+            "repeticiones": 10,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Air Squats",
+            "repeticiones": 15,
+            "peso": "Bodyweight"
+          }
+        ],
+        "duracion": "30 minutos"
+      },
+      {
+        "nombre": "Mary",
+        "tipo": "AMRAP 20 minutos",
+        "descripcion": "Tantas rondas como sea posible en 20 minutos",
+        "ejercicios": [
+          {
+            "ejercicio": "Handstand Push-ups",
+            "repeticiones": 5,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Pistol Squats",
+            "repeticiones": 10,
+            "nota": "Alternando piernas, 5 por pierna",
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Pull-ups",
+            "repeticiones": 15,
+            "peso": "Bodyweight"
+          }
+        ]
+      },
+      {
+        "nombre": "Nancy",
+        "tipo": "For Time",
+        "descripcion": "5 rondas completas de:",
+        "ejercicios": [
+          {
+            "orden": 1,
+            "ejercicio": "Run",
+            "distancia": "400 metros"
+          },
+          {
+            "orden": 2,
+            "ejercicio": "Overhead Squats",
+            "repeticiones": 15,
+            "peso_rx_hombres": "95 lb",
+            "peso_rx_mujeres": "65 lb"
+          }
+        ],
+        "total_rondas": 5
+      },
+      {
+        "nombre": "Amanda",
+        "tipo": "For Time",
+        "descripcion": "9-7-5 repeticiones de cada ejercicio",
+        "ejercicios": [
+          {
+            "ejercicio": "Muscle-ups",
+            "repeticiones_por_ronda": "9-7-5",
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Squat Snatches",
+            "repeticiones_por_ronda": "9-7-5",
+            "peso_rx_hombres": "135 lb",
+            "peso_rx_mujeres": "95 lb"
+          }
+        ]
+      },
+      {
+        "nombre": "Eva",
+        "tipo": "For Time",
+        "descripcion": "5 rondas completas de:",
+        "ejercicios": [
+          {
+            "orden": 1,
+            "ejercicio": "Run",
+            "distancia": "800 metros"
+          },
+          {
+            "orden": 2,
+            "ejercicio": "Kettlebell Swings",
+            "repeticiones": 30,
+            "peso_rx_hombres": "70 lb (2 pood)",
+            "peso_rx_mujeres": "53 lb (1.5 pood)"
+          },
+          {
+            "orden": 3,
+            "ejercicio": "Pull-ups",
+            "repeticiones": 30,
+            "peso": "Bodyweight"
+          }
+        ],
+        "total_rondas": 5
+      },
+      {
+        "nombre": "Kelly",
+        "tipo": "For Time",
+        "descripcion": "5 rondas completas de:",
+        "ejercicios": [
+          {
+            "orden": 1,
+            "ejercicio": "Run",
+            "distancia": "400 metros"
+          },
+          {
+            "orden": 2,
+            "ejercicio": "Box Jumps",
+            "repeticiones": 30,
+            "altura_rx_hombres": "24 inches",
+            "altura_rx_mujeres": "20 inches"
+          },
+          {
+            "orden": 3,
+            "ejercicio": "Wall Balls",
+            "repeticiones": 30,
+            "peso_rx_hombres": "20 lb",
+            "peso_rx_mujeres": "14 lb"
+          }
+        ],
+        "total_rondas": 5
+      },
+      {
+        "nombre": "Linda",
+        "tipo": "For Time",
+        "descripcion": "10-9-8-7-6-5-4-3-2-1 repeticiones de cada ejercicio",
+        "ejercicios": [
+          {
+            "ejercicio": "Deadlift",
+            "repeticiones_por_ronda": "10-9-8-7-6-5-4-3-2-1",
+            "peso": "1.5 x Peso Corporal"
+          },
+          {
+            "ejercicio": "Bench Press",
+            "repeticiones_por_ronda": "10-9-8-7-6-5-4-3-2-1",
+            "peso": "1 x Peso Corporal"
+          },
+          {
+            "ejercicio": "Clean",
+            "repeticiones_por_ronda": "10-9-8-7-6-5-4-3-2-1",
+            "peso": "0.75 x Peso Corporal"
+          }
+        ],
+        "nota": "También conocida como '3 Bars of Death'"
+      },
+      {
+        "nombre": "Lynne",
+        "tipo": "5 rondas máximas repeticiones",
+        "descripcion": "5 rondas, registrar repeticiones de cada ejercicio",
+        "ejercicios": [
+          {
+            "ejercicio": "Bench Press",
+            "repeticiones": "Máximas posibles",
+            "peso": "Peso corporal"
+          },
+          {
+            "ejercicio": "Pull-ups",
+            "repeticiones": "Máximas posibles",
+            "peso": "Bodyweight"
+          }
+        ],
+        "total_rondas": 5,
+        "nota": "Descansar según sea necesario entre ejercicios y rondas"
+      },
+      {
+        "nombre": "Candy",
+        "tipo": "For Time",
+        "descripcion": "5 rondas completas de:",
+        "ejercicios": [
+          {
+            "ejercicio": "Pull-ups",
+            "repeticiones": 20,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Push-ups",
+            "repeticiones": 40,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Air Squats",
+            "repeticiones": 60,
+            "peso": "Bodyweight"
+          }
+        ],
+        "total_rondas": 5
+      }
+    ],
+    "hero_wods_detallados": [
+      {
+        "nombre": "Murph",
+        "en_honor_a": "Navy Lt. Michael Murphy",
+        "tipo": "For Time",
+        "descripcion": "Con chaleco de peso (Rx)",
+        "ejercicios": [
+          {
+            "orden": 1,
+            "ejercicio": "Run",
+            "distancia": "1 milla (1.6 km)"
+          },
+          {
+            "orden": 2,
+            "ejercicio": "Pull-ups",
+            "repeticiones": 100,
+            "peso": "Bodyweight",
+            "nota": "Particionar como sea necesario"
+          },
+          {
+            "orden": 3,
+            "ejercicio": "Push-ups",
+            "repeticiones": 200,
+            "peso": "Bodyweight",
+            "nota": "Particionar como sea necesario"
+          },
+          {
+            "orden": 4,
+            "ejercicio": "Air Squats",
+            "repeticiones": 300,
+            "peso": "Bodyweight",
+            "nota": "Particionar como sea necesario"
+          },
+          {
+            "orden": 5,
+            "ejercicio": "Run",
+            "distancia": "1 milla (1.6 km)"
+          }
+        ],
+        "equipamiento_rx": {
+          "chaleco_hombres": "20 lb",
+          "chaleco_mujeres": "14 lb"
+        },
+        "particion_sugerida": "20 rondas de Cindy (5 pull-ups, 10 push-ups, 15 squats)"
+      },
+      {
+        "nombre": "DT",
+        "en_honor_a": "USAF SSgt Timothy P. Davis",
+        "tipo": "For Time",
+        "descripcion": "5 rondas completas de:",
+        "ejercicios": [
+          {
+            "ejercicio": "Deadlifts",
+            "repeticiones": 12,
+            "peso_rx_hombres": "155 lb (70 kg)",
+            "peso_rx_mujeres": "105 lb (48 kg)"
+          },
+          {
+            "ejercicio": "Hang Power Cleans",
+            "repeticiones": 9,
+            "peso_rx_hombres": "155 lb (70 kg)",
+            "peso_rx_mujeres": "105 lb (48 kg)"
+          },
+          {
+            "ejercicio": "Push Jerks",
+            "repeticiones": 6,
+            "peso_rx_hombres": "155 lb (70 kg)",
+            "peso_rx_mujeres": "105 lb (48 kg)"
+          }
+        ],
+        "total_rondas": 5,
+        "nota": "Usar la misma barra para todos los movimientos"
+      },
+      {
+        "nombre": "JT",
+        "en_honor_a": "Navy Petty Officer 1st Class Jeff Taylor",
+        "tipo": "For Time",
+        "descripcion": "21-15-9 repeticiones de cada ejercicio",
+        "ejercicios": [
+          {
+            "ejercicio": "Handstand Push-ups",
+            "repeticiones_por_ronda": "21-15-9",
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Ring Dips",
+            "repeticiones_por_ronda": "21-15-9",
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Push-ups",
+            "repeticiones_por_ronda": "21-15-9",
+            "peso": "Bodyweight"
+          }
+        ]
+      },
+      {
+        "nombre": "Michael",
+        "en_honor_a": "Navy Lt. Michael McGreevy",
+        "tipo": "For Time",
+        "descripcion": "3 rondas completas de:",
+        "ejercicios": [
+          {
+            "orden": 1,
+            "ejercicio": "Run",
+            "distancia": "800 metros"
+          },
+          {
+            "orden": 2,
+            "ejercicio": "Back Extensions",
+            "repeticiones": 50,
+            "peso": "Bodyweight"
+          },
+          {
+            "orden": 3,
+            "ejercicio": "Sit-ups",
+            "repeticiones": 50,
+            "peso": "Bodyweight"
+          }
+        ],
+        "total_rondas": 3
+      },
+      {
+        "nombre": "Badger",
+        "en_honor_a": "Navy SEAL Mark Carter",
+        "tipo": "For Time",
+        "descripcion": "3 rondas completas de:",
+        "ejercicios": [
+          {
+            "orden": 1,
+            "ejercicio": "Squat Cleans",
+            "repeticiones": 30,
+            "peso_rx_hombres": "95 lb (43 kg)",
+            "peso_rx_mujeres": "65 lb (29 kg)"
+          },
+          {
+            "orden": 2,
+            "ejercicio": "Pull-ups",
+            "repeticiones": 30,
+            "peso": "Bodyweight"
+          },
+          {
+            "orden": 3,
+            "ejercicio": "Run",
+            "distancia": "800 metros"
+          }
+        ],
+        "total_rondas": 3
+      },
+      {
+        "nombre": "The Seven",
+        "en_honor_a": "7 CIA officers killed in Afghanistan 2009",
+        "tipo": "For Time",
+        "descripcion": "7 rondas completas de 7 repeticiones de cada ejercicio",
+        "ejercicios": [
+          {
+            "ejercicio": "Handstand Push-ups",
+            "repeticiones": 7,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Thrusters",
+            "repeticiones": 7,
+            "peso_rx_hombres": "135 lb",
+            "peso_rx_mujeres": "95 lb"
+          },
+          {
+            "ejercicio": "Knees-to-Elbows",
+            "repeticiones": 7,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Deadlifts",
+            "repeticiones": 7,
+            "peso_rx_hombres": "245 lb",
+            "peso_rx_mujeres": "165 lb"
+          },
+          {
+            "ejercicio": "Burpees",
+            "repeticiones": 7,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Kettlebell Swings",
+            "repeticiones": 7,
+            "peso_rx_hombres": "70 lb (2 pood)",
+            "peso_rx_mujeres": "53 lb (1.5 pood)"
+          },
+          {
+            "ejercicio": "Pull-ups",
+            "repeticiones": 7,
+            "peso": "Bodyweight"
+          }
+        ],
+        "total_rondas": 7,
+        "nota": "49 repeticiones de cada ejercicio en total"
+      },
+      {
+        "nombre": "Randy",
+        "en_honor_a": "Randy Simmons, LAPD SWAT",
+        "tipo": "For Time",
+        "descripcion": "Completar lo más rápido posible",
+        "ejercicios": [
+          {
+            "ejercicio": "Power Snatches",
+            "repeticiones": 75,
+            "peso_rx_hombres": "75 lb (34 kg)",
+            "peso_rx_mujeres": "55 lb (25 kg)"
+          }
+        ]
+      },
+      {
+        "nombre": "Tommy V",
+        "en_honor_a": "Senior Chief Thomas J. Valentine",
+        "tipo": "For Time",
+        "descripcion": "Formato descendente",
+        "ejercicios": [
+          {
+            "ronda": 1,
+            "ejercicio": "Thrusters",
+            "repeticiones": 21,
+            "peso_rx_hombres": "115 lb",
+            "peso_rx_mujeres": "80 lb"
+          },
+          {
+            "ronda": 1,
+            "ejercicio": "Rope Climbs",
+            "repeticiones": 12,
+            "altura": "15 feet"
+          },
+          {
+            "ronda": 2,
+            "ejercicio": "Thrusters",
+            "repeticiones": 15,
+            "peso_rx_hombres": "115 lb",
+            "peso_rx_mujeres": "80 lb"
+          },
+          {
+            "ronda": 2,
+            "ejercicio": "Rope Climbs",
+            "repeticiones": 9,
+            "altura": "15 feet"
+          },
+          {
+            "ronda": 3,
+            "ejercicio": "Thrusters",
+            "repeticiones": 9,
+            "peso_rx_hombres": "115 lb",
+            "peso_rx_mujeres": "80 lb"
+          },
+          {
+            "ronda": 3,
+            "ejercicio": "Rope Climbs",
+            "repeticiones": 6,
+            "altura": "15 feet"
+          }
+        ],
+        "total_thrusters": 45,
+        "total_rope_climbs": 27
+      },
+      {
+        "nombre": "Griff",
+        "en_honor_a": "Army Staff Sgt. Travis L. Griffin",
+        "tipo": "For Time",
+        "descripcion": "Carrera con cambios",
+        "ejercicios": [
+          {
+            "orden": 1,
+            "ejercicio": "Run Forward",
+            "distancia": "800 metros"
+          },
+          {
+            "orden": 2,
+            "ejercicio": "Run Backward",
+            "distancia": "400 metros"
+          },
+          {
+            "orden": 3,
+            "ejercicio": "Run Forward",
+            "distancia": "800 metros"
+          },
+          {
+            "orden": 4,
+            "ejercicio": "Run Backward",
+            "distancia": "400 metros"
+          }
+        ],
+        "distancia_total": "2400 metros"
+      },
+      {
+        "nombre": "Nate",
+        "en_honor_a": "Chief Petty Officer Nate Hardy",
+        "tipo": "AMRAP 20 minutos",
+        "descripcion": "Tantas rondas como sea posible en 20 minutos",
+        "ejercicios": [
+          {
+            "ejercicio": "Ring Muscle-ups",
+            "repeticiones": 2,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Handstand Push-ups",
+            "repeticiones": 4,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Kettlebell Swings",
+            "repeticiones": 8,
+            "peso_rx_hombres": "70 lb (2 pood)",
+            "peso_rx_mujeres": "53 lb (1.5 pood)"
+          }
+        ]
+      },
+      {
+        "nombre": "Manion",
+        "en_honor_a": "1st Lt. Travis Manion",
+        "tipo": "For Time",
+        "descripcion": "7 rondas completas de:",
+        "ejercicios": [
+          {
+            "ejercicio": "Back Squats",
+            "repeticiones": 29,
+            "peso_rx_hombres": "135 lb",
+            "peso_rx_mujeres": "95 lb"
+          },
+          {
+            "ejercicio": "Run",
+            "distancia": "400 metros"
+          }
+        ],
+        "total_rondas": 7,
+        "total_back_squats": 203
+      },
+      {
+        "nombre": "Whitten",
+        "en_honor_a": "Navy SEAL George Whitten",
+        "tipo": "For Time",
+        "descripcion": "5 rondas completas de:",
+        "ejercicios": [
+          {
+            "ejercicio": "Kettlebell Swings",
+            "repeticiones": 22,
+            "peso_rx_hombres": "70 lb (2 pood)",
+            "peso_rx_mujeres": "53 lb (1.5 pood)"
+          },
+          {
+            "ejercicio": "Box Jumps",
+            "repeticiones": 22,
+            "altura_rx_hombres": "24 inches",
+            "altura_rx_mujeres": "20 inches"
+          },
+          {
+            "ejercicio": "Run",
+            "distancia": "400 metros"
+          },
+          {
+            "ejercicio": "Burpees",
+            "repeticiones": 22,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Wall Balls",
+            "repeticiones": 22,
+            "peso_rx_hombres": "20 lb",
+            "peso_rx_mujeres": "14 lb"
+          }
+        ],
+        "total_rondas": 5
+      },
+      {
+        "nombre": "Nutts",
+        "en_honor_a": "Lt. Andrew Richard Nuttall",
+        "tipo": "For Time",
+        "descripcion": "10 rondas completas de:",
+        "ejercicios": [
+          {
+            "ejercicio": "Handstand Push-ups",
+            "repeticiones": 10,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Deadlifts",
+            "repeticiones": 15,
+            "peso_rx_hombres": "250 lb",
+            "peso_rx_mujeres": "175 lb"
+          }
+        ],
+        "total_rondas": 10
+      },
+      {
+        "nombre": "Kalsu",
+        "en_honor_a": "Lt. Bob Kalsu",
+        "tipo": "For Time con EMOM Burpees",
+        "descripcion": "100 Thrusters, cada minuto hacer 5 Burpees (empezando minuto 0)",
+        "ejercicios": [
+          {
+            "ejercicio": "Thrusters",
+            "repeticiones": 100,
+            "peso_rx_hombres": "135 lb",
+            "peso_rx_mujeres": "95 lb",
+            "nota": "Objetivo principal"
+          },
+          {
+            "ejercicio": "Burpees",
+            "repeticiones": 5,
+            "frecuencia": "Cada minuto en el minuto (EMOM)",
+            "peso": "Bodyweight",
+            "nota": "Incluir minuto 0 antes de empezar"
+          }
+        ],
+        "nota_especial": "Uno de los Hero WODs más brutales"
+      },
+      {
+        "nombre": "Holleyman",
+        "en_honor_a": "Army Staff Sgt. Aaron N. Holleyman",
+        "tipo": "For Time",
+        "descripcion": "30 rondas completas de:",
+        "ejercicios": [
+          {
+            "ejercicio": "Wall Balls",
+            "repeticiones": 5,
+            "peso_rx_hombres": "20 lb",
+            "peso_rx_mujeres": "14 lb"
+          },
+          {
+            "ejercicio": "Handstand Push-ups",
+            "repeticiones": 3,
+            "peso": "Bodyweight"
+          },
+          {
+            "ejercicio": "Power Cleans",
+            "repeticiones": 1,
+            "peso_rx_hombres": "225 lb",
+            "peso_rx_mujeres": "155 lb"
+          }
+        ],
+        "total_rondas": 30
+      },
+      {
+        "nombre": "CHAD1000X",
+        "en_honor_a": "Navy SEAL Chad Wilkinson",
+        "tipo": "For Time",
+        "descripcion": "Completar lo más rápido posible",
+        "ejercicios": [
+          {
+            "ejercicio": "Box Step-Ups",
+            "repeticiones": 1000,
+            "altura": "24 inches",
+            "peso_adicional_rx": "45 lb plate (hombres) / 25 lb (mujeres)",
+            "nota": "Alternar piernas, llevar peso en cualquier posición"
+          }
+        ],
+        "nota_especial": "Uno de los Hero WODs más largos, típicamente 60-90+ minutos"
+      },
+      {
+        "nombre": "Murph",
+        "en_honor_a": "Navy Lt. Michael Murphy",
+        "tipo": "For Time",
+        "descripcion": "El Hero WOD más famoso, programado cada Memorial Day",
+        "ejercicios": [
+          {
+            "orden": 1,
+            "ejercicio": "Run",
+            "distancia": "1 mile"
+          },
+          {
+            "orden": 2,
+            "ejercicio": "Pull-ups",
+            "repeticiones": 100
+          },
+          {
+            "orden": 3,
+            "ejercicio": "Push-ups",
+            "repeticiones": 200
+          },
+          {
+            "orden": 4,
+            "ejercicio": "Air Squats",
+            "repeticiones": 300
+          },
+          {
+            "orden": 5,
+            "ejercicio": "Run",
+            "distancia": "1 mile"
+          }
+        ],
+        "equipamiento_rx": "Chaleco 20/14 lb",
+        "nota": "Particionar los ejercicios gimnásticos como sea necesario"
+      }
+    ],
+    "nota_final": "Esta lista contiene los WODs más populares con ejercicios detallados. Cada WOD tiene múltiples opciones de escalamiento para diferentes niveles de fitness."
+  }
+}

@@ -125,14 +125,81 @@ La aplicación se conecta a una base de datos MySQL con las siguientes tablas pr
 - `npm run build` - Construye la aplicación para producción
 - `npm start` - Inicia el servidor de producción
 - `npm run lint` - Ejecuta el linter
+- `npm run migrate` - Ejecuta migraciones de base de datos
+
+## Deployment en Vercel
+
+### Requisitos previos
+
+1. Cuenta en [Vercel](https://vercel.com)
+2. Repositorio Git (GitHub, GitLab o Bitbucket)
+3. Base de datos MySQL accesible desde internet
+
+### Pasos para deployment
+
+1. **Preparar el repositorio**
+   - Asegúrate de que todos los cambios estén commiteados
+   - Push al repositorio remoto
+
+2. **Conectar con Vercel**
+   - Ve a [vercel.com](https://vercel.com) e inicia sesión
+   - Haz clic en "Add New Project"
+   - Importa tu repositorio de Git
+
+3. **Configurar variables de entorno**
+   En la configuración del proyecto en Vercel, agrega las siguientes variables de entorno:
+   
+   ```
+   DB_HOST=mysql-funkotest.alwaysdata.net
+   DB_NAME=funkotest_training
+   DB_USER=funkotest
+   DB_PASSWORD=rootJonas
+   ```
+   
+   Para agregar variables:
+   - Ve a **Project Settings** > **Environment Variables**
+   - Agrega cada variable para los ambientes: Production, Preview y Development
+   - Guarda los cambios
+
+4. **Configurar Build Settings**
+   Vercel detectará automáticamente que es un proyecto Next.js. Asegúrate de que:
+   - **Framework Preset**: Next.js
+   - **Build Command**: `npm run build` (automático)
+   - **Output Directory**: `.next` (automático)
+   - **Install Command**: `npm install` (automático)
+
+5. **Deploy**
+   - Haz clic en "Deploy"
+   - Vercel construirá y desplegará tu aplicación automáticamente
+   - Una vez completado, recibirás una URL (ej: `tu-app.vercel.app`)
+
+### Configuración adicional
+
+- **Regiones**: Puedes configurar la región de deployment en `vercel.json` si es necesario
+- **Dominio personalizado**: Puedes agregar un dominio personalizado en Project Settings > Domains
+- **Variables de entorno por ambiente**: Puedes tener diferentes valores para Production, Preview y Development
+
+### Notas importantes
+
+- ⚠️ **Base de datos**: Asegúrate de que tu base de datos MySQL permita conexiones desde las IPs de Vercel
+- ⚠️ **Variables de entorno**: Nunca commitees archivos `.env.local` o `.env` con credenciales reales
+- ⚠️ **Migraciones**: Las migraciones de base de datos deben ejecutarse manualmente antes del primer deployment
+- ⚠️ **Conexiones**: El pool de conexiones está configurado para ser conservador (1 conexión) para evitar límites del servidor
+
+### Troubleshooting
+
+Si tienes problemas con el deployment:
+
+1. **Error de build**: Revisa los logs en Vercel Dashboard > Deployments
+2. **Error de conexión a BD**: Verifica que las variables de entorno estén correctamente configuradas
+3. **Error de variables**: Asegúrate de que todas las variables estén en todos los ambientes (Production, Preview, Development)
 
 ## Notas
 
 - Por ahora, la aplicación usa `user_id = 1` por defecto. En el futuro se puede implementar autenticación completa.
 - Las credenciales de la base de datos están en variables de entorno para mayor seguridad.
+- El proyecto está optimizado para funcionar en Vercel con configuración mínima.
 
 ## Licencia
 
 Este proyecto es de uso personal/educacional.
-
-# training-sa

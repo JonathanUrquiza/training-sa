@@ -1,0 +1,10 @@
+# Archivos que no deben ser desplegados en Vercel
+node_modules
+.next
+.env.local
+.env
+*.log
+.DS_Store
+scripts/
+herowod.json
+
